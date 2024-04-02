@@ -21,7 +21,7 @@ jobs:
             sudo rm -rf /opt/Main
             sudo mkdir -p /opt/Main
             cd /opt/Compras
-            sudo git clone https://${{ secrets.GH_TOKEN_COMPRAS }}@github.com/GuidoSantiagoReta/prueba-ami .
+            sudo git clone https://${{ secrets.USER_PRUEBA }}@github.com/GuidoSantiagoReta/prueba-ami .
             sudo npm install express 
             sudo npm install -g pm2
             sudo pm2 start app.js
