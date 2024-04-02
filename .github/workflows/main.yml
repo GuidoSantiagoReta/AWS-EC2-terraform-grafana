@@ -18,8 +18,8 @@ jobs:
           script: |
             sudo yum update -y
             sudo yum install -y nodejs npm git
-            sudo rm -rf /opt/Compras
-            sudo mkdir -p /opt/Compras
+            sudo rm -rf /opt/Main
+            sudo mkdir -p /opt/Main
             cd /opt/Compras
             sudo git clone https://${{ secrets.GH_TOKEN_COMPRAS }}@github.com/GuidoSantiagoReta/prueba-ami .
             sudo npm install express 
