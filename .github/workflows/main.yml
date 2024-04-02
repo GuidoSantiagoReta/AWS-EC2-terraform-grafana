@@ -12,9 +12,9 @@ jobs:
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.EC2_PUBLIC_IP_COMPRAS }}
-          username: ${{ secrets.USER_COMPRAS }}
-          key: ${{ secrets.VOCKEY_FILE_COMPRAS }}
+          host: ${{ secrets.EC2_PUBLIC_IP_PRUEBA }}
+          username: ${{ secrets.USER_PRUEBA }}
+          key: ${{ secrets.VOCKEY_FILE_PRUEBA }}
           script: |
             sudo yum update -y
             sudo yum install -y nodejs npm git
