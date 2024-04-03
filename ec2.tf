@@ -20,6 +20,6 @@ variable "instance_tags" {
   description = "Etiquetas para la instancia EC2"
   type        = map(string)
   default     = {
-    Name = "ORG-PRUEBA" # Reemplazar por el nombre correspondiente
+    Name = "PRUEBA" # Reemplazar por el nombre correspondiente
   }
 }
