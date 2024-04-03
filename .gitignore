@@ -5,3 +5,8 @@ main.tf
 *.tfstate.*
 *.tfstate.backup
 *.lock.hcl
+ec2.tf
+github.tf
+outputs.tf
+security_group.tf
+vpc.tf
