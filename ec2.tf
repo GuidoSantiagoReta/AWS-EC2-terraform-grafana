@@ -23,3 +23,20 @@ variable "instance_tags" {
     Name = "PRUEBA" # Reemplazar por el nombre correspondiente
   }
 }
+
+# Conexion a Grafana para levantarlo desde EC2 consola AWS
+
+/* resource "aws_instance" "grafana_instance" {
+  ami           = var.ami_id
+  instance_type = var.instance_type
+
+  subnet_id                   = module.vpc.public_subnets[0]
+  vpc_security_group_ids      = [aws_security_group.instance_security_group.id]
+  key_name                    = aws_key_pair.ec2-server-ssh-key.key_name
+
+  associate_public_ip_address = var.associate_public_ip_address
+
+  tags = {
+    Name = "Grafana-Instance" # Nombre para la instancia de Grafana
+  }
+}   */
