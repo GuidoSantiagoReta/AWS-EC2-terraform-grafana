@@ -1,4 +1,4 @@
-# AWS EC2 - integración con terraform - terraform docs - github actions - Grafana
+# AWS EC2 - integración con terraform - terraform docs - github actions - Grafana.
 
 ### Configuración AWS EC2 CON TERRAFORM 
 
