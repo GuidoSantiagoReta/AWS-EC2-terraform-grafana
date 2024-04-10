@@ -26,7 +26,7 @@ variable "instance_tags" {
 
 # Conexion a Grafana para levantarlo desde EC2 consola AWS
 
-/* resource "aws_instance" "grafana_instance" {
+ resource "aws_instance" "grafana_instance" {
   ami           = var.ami_id
   instance_type = var.instance_type
 
@@ -39,4 +39,4 @@ variable "instance_tags" {
   tags = {
     Name = "Grafana-Instance" # Nombre para la instancia de Grafana
   }
-}   */
+}   
