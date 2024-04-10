@@ -9,7 +9,7 @@
 ### USO DE TERRAFORM DOCS
 - Se instaló terraform docs con choco desde un ordenador windows por powershell.
 
-![terraformdocs-chocolatey](https://github.com/GuidoSantiagoReta/prueba-ami/assets/46303885/42303295-0a60-4479-984f-816a65d58c23)
+
 
 
 ### EJECUTAR TERRAFORM DOCS EN EL PROYECTO Y CREAR EL DOCUMENTO
